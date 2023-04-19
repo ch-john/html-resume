@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="header">
     <h1>Ioannis Chalkias</h1>
-    <img src="./assets/340810578_542951661331006_7669696701775172667_n-modified.png" alt="Photo of me" />
+    <img class="me" src="./assets/340810578_542951661331006_7669696701775172667_n-modified.png" alt="Photo of me" />
+    
+  </div>
+  <div id="photos">
+    <a target="_blank" rel="noopener" href="public/about.html"><img id="about" src="./assets/about.png" alt=""></a>
+    <a target="_blank" rel="noopener" href="./public/contact.html"><img id="contact" src="./assets/phone.png"></a>
+  </div>
+    
     <h2>Summary</h2>
     <p>I am a hardworking and dedicated electronics engineer <br /> with demonstrated experience on fiber optic networks and solar power plants</p>
     
@@ -73,12 +85,13 @@
       </ul>
 
       <hr />
-
-    <h2>Other</h2>
-    <ul>
-        <li><a href="./public/about.html">About me</a></li>
-        <li><a href="./public/contact.html">Contact me</a></li>
-    </ul>
+        <h2 style="text-align: center;">Find me on</h2>
+      <div id="findme">
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=100014538764605"><img id="fblogo" src="./assets/fb.png" alt="facebook logo"></a>
+        <a target="_blank" rel="noopener" href="https://www.reddit.com/user/PsixoJohn"><img id="redditlogo" src="./assets/reddit-logo-16.png" alt="reddit logo"> </a>
+        <a target="_blank" rel="noopener" href="https://twitter.com/johnchalk41"><img id="twit" src="./assets/./580b57fcd9996e24bc43c53e.png" alt="twitter logo"> </a>
+      </div>
+    
     <footer><small>© Ioannis Chalkias. All rights reserved.</small></footer>
 </body>
 </html>
